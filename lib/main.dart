@@ -32,3 +32,18 @@ class MainApp extends StatelessWidget {
     );
   }
 }
+
+//IF YOU WANT TO DESIGN THE ROW, THAT WILL SHOW 
+//ITS CHILDREN ACCORDING TO WIDTH, & OTHER CHILDREN
+//WILL AUTOMATICALLY GO BELOW & NOT BE SCROLLABLE.
+
+//SO USE "Wrap()" instead of "Row()"
+//Wrap(
+//  direction: Axis.horizontal.
+//  spacing: 11
+//  runSpacing: 11
+//  children: [
+//
+//
+//  ]
+// )
